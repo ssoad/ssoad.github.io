@@ -116,7 +116,7 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-    background-color: #ff0040;
+    background-color: #ff1744;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -129,7 +129,7 @@ figure {
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em;
-	  background-color: #ff0040;
+	  background-color: #ff1744;
         height: auto;
       } }
   #colorlib-aside .author-img {
@@ -410,7 +410,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background-color: #ff0040;
+    background-color: #ff1944;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -522,7 +522,7 @@ font-family: "Montserrat", Georgia, serif;}
 
 .hire {
   padding: 2em;
-  background: #ff0040; }
+  background: #ff1744; }
   .hire h2 {
     line-height: 1.5; }
   .hire .btn-hire {
@@ -666,7 +666,7 @@ font-family: "Montserrat", Georgia, serif;}
   position: absolute;
   display: block;
   width: 4px;
-  background: #ff0040;
+  background: #ff1744;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -715,7 +715,7 @@ font-family: "Montserrat", Georgia, serif;}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #ff0040;
+  background: #ff1744;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
