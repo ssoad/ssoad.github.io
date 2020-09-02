@@ -78,14 +78,14 @@ h4,
 h5,
 h6 {
     color: #000;
-    font-family: "Playfair Display", Georgia, serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin: 0 0 30px 0;
 }
 
 h2 {
     color: white;
-    font-family: "Playfair Display", Georgia, serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     margin: 0 0 20px 0;
 }
@@ -146,7 +146,7 @@ figure figcaption {
     width: 300px;
     position: fixed;
     z-index: 1001;
-    background-color: #ff1744;
+    background-color: #546e7a;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -161,7 +161,7 @@ figure figcaption {
         -o-transform: translateX(-300px);
         transform: translateX(-300px);
         padding-top: 4em;
-        background-color: #ff1744;
+        background-color: #546e7a;
         height: auto;
     }
 }
@@ -191,9 +191,10 @@ figure figcaption {
 }
 
 #colorlib-aside #colorlib-logo {
+    font-family: monospace;
     text-align: right;
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: 500;
+    font-size: 25px;
     margin-bottom: .5em;
     display: block;
     width: 100%;
@@ -693,7 +694,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .hire {
     padding: 2em;
-    background: #ff1744;
+    background: #546e7a;
 }
 
 .hire h2 {
@@ -854,7 +855,7 @@ body.offcanvas .colorlib-nav-toggle {
     position: absolute;
     display: block;
     width: 4px;
-    background: #ff1744;
+    background: #546e7a;
     top: 20px;
     bottom: 20px;
     margin-left: 29px;
@@ -919,7 +920,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
     position: relative;
-    background: #ff1744;
+    background: #546e7a;
     padding: 1.5em;
     margin-left: 60px;
     -webkit-background-clip: padding-box;
@@ -2245,4 +2246,38 @@ body.offcanvas .colorlib-nav-toggle {
     box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
     opacity: 0.85 !important;
     color: #FFFFFF !important;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
 }
