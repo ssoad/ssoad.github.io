@@ -2281,3 +2281,10 @@ ul.timeline>li:before {
     height: 20px;
     z-index: 400;
 }
+
+#titletext {
+    font-family: monospace;
+    font-weight: 700;
+    font: outline;
+    color: blue;
+}
