@@ -2338,3 +2338,24 @@ ul.timeline>li:before {
 #timelinehead {
     font-size: 22px;
 }
+
+
+/*
+#skillcard {
+    background: rgba(178, 235, 242, 0.38);
+    padding: 15px 15px 15px 15px;
+    margin: 10px
+}
+
+#skillset {
+    width: 800px;
+    margin: 10px;
+    grid-row-gap: 10px;
+    display: block;
+}
+
+.wrapper {
+    display: block;
+    grid-gap: 50px;
+}
+*/
