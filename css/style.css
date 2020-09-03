@@ -1171,7 +1171,7 @@ body.offcanvas .colorlib-nav-toggle {
     height: 6px;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: #f2f3f7;
+    background: #cfd8dc;
     overflow: visible;
 }
 
@@ -2328,4 +2328,13 @@ ul.timeline>li:before {
 
 #contentbox {
     border-radius: 20px;
+}
+
+#greenText {
+    color: green;
+    font-size: 18px;
+}
+
+#timelinehead {
+    font-size: 22px;
 }
