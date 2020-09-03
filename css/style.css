@@ -2288,3 +2288,39 @@ ul.timeline>li:before {
     font: outline;
     color: #0091ea;
 }
+
+#intro__contact {
+    font-size: 20px;
+    font-weight: 400
+}
+
+@media screen and (max-width:550px) {
+    #intro__contact {
+        font-size: 1rem
+    }
+}
+
+@media screen and (max-width:550px) {
+    #intro__contact .emoji.pointer {
+        width: 25px;
+        height: 25px
+    }
+}
+
+#intro__contact .highlight-link {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 3px;
+    text-decoration: none;
+    -webkit-box-shadow: inset 0 -3px 0 #007bff;
+    box-shadow: inset 0 -3px 0 #007bff
+}
+
+#intro__contact .highlight-link:hover {
+    -webkit-box-shadow: inset 0 -33px 0 0 #007bff;
+    box-shadow: inset 0 -33px 0 0 #007bff;
+    color: #fff
+}
