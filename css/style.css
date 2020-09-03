@@ -966,6 +966,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .services {
+    border-radius: 15px;
     margin-bottom: 30px;
     padding: 1.5em;
     -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -2323,4 +2324,8 @@ ul.timeline>li:before {
     -webkit-box-shadow: inset 0 -33px 0 0 #007bff;
     box-shadow: inset 0 -33px 0 0 #007bff;
     color: #fff
+}
+
+#contentbox {
+    border-radius: 20px;
 }
