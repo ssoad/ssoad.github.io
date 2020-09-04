@@ -145,7 +145,7 @@ figure figcaption {
     float: left;
     width: 300px;
     position: fixed;
-    z-index: 1001;
+    z-index: 100;
     background-color: #546e7a;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
@@ -272,7 +272,9 @@ figure figcaption {
 
 #colorlib-aside #colorlib-main-menu ul li a:hover {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: 1000;
+    font-size: 16px;
 }
 
 #colorlib-aside #colorlib-main-menu ul li a:hover:after {
@@ -285,7 +287,10 @@ figure figcaption {
 }
 
 #colorlib-aside #colorlib-main-menu ul li.active a {
-    color: #2c98f0;
+    color: #2196f3;
+    font-size: 16px;
+    font-weight: 1000;
+    border: white;
 }
 
 #colorlib-aside #colorlib-main-menu ul li.active a:after {
@@ -1737,7 +1742,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-social li a:focus {
     outline: none;
     text-decoration: none;
-    color: #2c98f0;
+    color: #26c6da;
 }
 
 #map {
@@ -2402,4 +2407,72 @@ img#pallo.img-circle.img-responsive {
 
 #pro_name {
     font-weight: 800;
+}
+
+.socials-icons {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 70px;
+    z-index: 10;
+}
+
+.socials-icons ul {
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.socials-icons li {
+    margin: 0;
+    display: inline-block;
+}
+
+.socials-icons li a {
+    display: block;
+    background: transparent;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.socials-icons li a i.fa {
+    color: #fff;
+    line-height: 50px;
+    font-size: 21px;
+}
+
+.socials-icons li a:hover i.fa {
+    color: #fff;
+    box-shadow: 30, white;
+}
+
+#soc_ico {
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    shape-outside: circle();
+}
+
+#soc_ico:hover,
+#soc_ico:active,
+#soc_ico:focus {
+    box-shadow: 30, white;
+    text-decoration: none !important;
+    opacity: 0.8 !important;
+    color: #26c6da;
 }
