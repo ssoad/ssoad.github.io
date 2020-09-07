@@ -1,8 +1,14 @@
-<?xml version=”1.0″ encoding=”UTF-8″?>
-<urlset xmlns=”http://www.sitemaps.org/schemas/sitemap/0.9″>
-<url>
-<loc>https://github.com/ssoad</loc>
-<lastmod>2020-09-02</lastmod>
-<changefreq>daily</changefreq>
-<priority>1</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+    <loc>http://github.com/ssoad</loc>
+    <lastmod>2020-08-09</lastmod>
+    <priority>1</priority>
+  </url>
+
+  <url>
+    <loc>http://ssoad.github.io</loc>
+    <lastmod>2020-09-09</lastmod>
+    <priority>2</priority>
+  </url>
+</urlset>
