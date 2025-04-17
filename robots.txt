@@ -1,2 +1,2 @@
-User-agent: Google-adstxt
-Disallow:
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
